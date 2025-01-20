@@ -29,7 +29,7 @@ function checkFortune() {
    const weather = document.getElementById("weather-select").value;
    const season = document.getElementById("season-select").value;
    
-   const suggestion = ramenSuggestions[weather][season];
+   const suggestion = ramenSuggestions(weather)(season);
    
    const resultOutput = document.getElementById("result-output");
    resultOutput.textContent = `あなたにおすすめのラーメンは「${suggestion}」です！`;
