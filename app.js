@@ -27,6 +27,7 @@ const ramenSuggestions = {
 };
 // ラーメン提案を確認する関数
 function checkFortune() {
+   console.log("checkFortune 関数が呼び出されました");
    // 選択された天気と季節を取得
    const weather = document.getElementById("weather-select").value;
    const season = document.getElementById("season-select").value;
@@ -39,4 +40,4 @@ function checkFortune() {
    } else {
        resultOutput.textContent = "選択に対応するラーメンが見つかりません。";
    }
-}
+};
