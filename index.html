@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>あなたへ贈るラーメン！</title>
@@ -12,6 +10,7 @@
 <div class="container">
 <h1>🍜 あなたへ贈るラーメン！ 🍜</h1>
 <p>今日の気分に合わせて、今夜のラーメンを見つけましょう！</p>
+<!-- 天気選択 -->
 <div class="select-container">
 <label for="weather-select">☀️ 今日の天気を選んでください</label>
 <select id="weather-select">
@@ -21,6 +20,7 @@
 <option value="快晴">快晴</option>
 </select>
 </div>
+<!-- 季節選択 -->
 <div class="select-container">
 <label for="season-select">🍂 今の季節を選んでください</label>
 <select id="season-select">
@@ -30,6 +30,7 @@
 <option value="冬">冬</option>
 </select>
 </div>
+<!-- ボタンと結果表示 -->
 <button id="check-button" onclick="checkFortune()">🍜 あなたの今夜のラーメンは？</button>
 <p id="result-output"></p>
 </div>
