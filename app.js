@@ -1,4 +1,3 @@
-// ラーメンの提案オブジェクト
 const ramenSuggestions = {
    曇り: {
        春: "塩ラーメン 🌸",
@@ -25,15 +24,15 @@ const ramenSuggestions = {
        冬: "特製チャーシューメン 🍖"
    }
 };
-// ラーメン提案を確認する関数
+
 function checkFortune() {
    console.log("checkFortune 関数が呼び出されました");
-   // 選択された天気と季節を取得
+   
    const weather = document.getElementById("weather-select").value;
    const season = document.getElementById("season-select").value;
-   // ラーメン提案を取得
+   
    const suggestion = ramenSuggestions[weather]?.[season];
-   // 結果表示エリアを更新
+   
    const resultOutput = document.getElementById("result-output");
    if (suggestion) {
        resultOutput.textContent = `あなたにおすすめのラーメンは「${suggestion}」です！`;
