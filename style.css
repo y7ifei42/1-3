@@ -1,69 +1,35 @@
 body {
-   font-family: 'Arial', sans-serif;
-   background: linear-gradient(to right, #ffefba, #ffffff);
-   color: #333;
+   font-family: Arial, sans-serif;
+   text-align: center;
+   background-color: #f8f8f8;
    margin: 0;
    padding: 0;
 }
 .container {
    max-width: 600px;
    margin: 50px auto;
+   background: white;
    padding: 20px;
-   text-align: center;
-   background: #fff;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 h1 {
-   font-size: 2em;
-   color: #ff7043;
-   margin-bottom: 10px;
+   color: #ff6600;
 }
 p {
-   font-size: 1.2em;
-   margin-bottom: 20px;
+   font-size: 18px;
+   color: #333;
 }
 .select-container {
-   margin-bottom: 20px;
-}
-label {
-   display: block;
-   font-size: 1.1em;
-   margin-bottom: 8px;
-   color: #555;
+   margin: 20px 0;
 }
 select {
-   width: 100%;
    padding: 10px;
-   border: 2px solid #ff7043;
+   font-size: 16px;
    border-radius: 5px;
-   font-size: 1em;
-   background: #fff;
-   transition: border-color 0.3s;
-}
-select:focus {
-   border-color: #ff7043;
-   outline: none;
+   border: 1px solid #ccc;
 }
 button {
    padding: 10px 20px;
-   background: #ff7043;
-   color: white;
-   font-size: 1.2em;
-   border: none;
-   border-radius: 5px;
-   cursor: pointer;
-   transition: background-color 0.3s, transform 0.2s;
-}
-button:hover {
-   background: #ff5722;
-   transform: scale(1.05);
-}
-button:active {
-   transform: scale(0.95);
-}
-#result-output {
-   font-size: 1.2em;
-   margin-top: 20px;
-   color: #333;
-}
+   font-size: 18px;
+   background-color: #ff
